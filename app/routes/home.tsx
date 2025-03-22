@@ -1,6 +1,6 @@
 import type { Route } from "./+types/home";
 import { Welcome } from "../welcome/welcome";
-import MarkdownEditor from "../components/MarkdownEditor";
+import { MarkdownEditor } from "../components/MarkdownEditor";
 export function meta({}: Route.MetaArgs) {
   return [
     { title: "New React Router App" },
