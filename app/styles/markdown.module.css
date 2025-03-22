@@ -1,0 +1,56 @@
+.markdown-container {
+    display: flex;
+    gap: 20px;
+}
+
+.editor,
+.preview {
+    flex: 1;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.markdown-input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    resize: none;
+    font-family: monospace;
+}
+
+.markdown-content {
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Markdown element styling */
+.markdown-content h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.markdown-content h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #444;
+}
+
+.markdown-content p {
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.markdown-content em {
+    font-style: italic;
+}
+
+.markdown-content strong {
+    font-weight: bold;
+}
+
+.markdown-content ul,
+.markdown-content ol {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
